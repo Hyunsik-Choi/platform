@@ -17,7 +17,6 @@
 | 10 | 비밀번호 정책 | 최소 길이 등 (P1.4에서 결정) | config.toml / 대시보드 | ☐ | ☐ |
 | 11 | Storage 버킷 | 마이그레이션으로 생성 | 마이그레이션 | ☐ | ☐ |
 | 12 | 백업 | prod: Pro 일일 백업 + 주간 암호화 백업 (설계안 7.1) | 대시보드 + 스크립트 | — | ☐ |
-
 | 13 | 기타 Auth 값 (원격 기본값 유지) | 이메일 인증 켬, 메일 발송 간격 1분, OTP 8자리, TOTP MFA 등록·검증 켬(화면은 F) | config.toml | ✅ | ☐ |
 
 **반영 방법:** `npx supabase config push` → 바뀌는 항목을 확인하고 y. prod는 `supabase link --project-ref <prod>` 후 같은 명령 (리디렉트 URL은 운영 도메인으로 바꿔서).
