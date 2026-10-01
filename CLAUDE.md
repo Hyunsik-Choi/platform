@@ -51,4 +51,4 @@
 ## 현재 상태 (2026-10-01)
 - 브리프 0장 산출물 1~6 완료, 설계안 v4.1 확정
 - 2027년 1월 목표: MCQ 모의고사 **내부 파일럿**. 전체 출시는 2~3월 예상
-- **P0 진행 중**: 저장소·Next.js 초기화, Supabase CLI init + `platform-dev` link, `.env.local` 키 3개 확인(anon/service/Anthropic), auth 설정 원격 반영(JWT 15분·가입 차단) 완료. 남은 것: CI(0.5), 백업 스크립트 골격(0.6), 메일 발송(0.7, Q1 결정 필요), Vercel 연결(0.4, 선택)
+- **P0 진행 중**: 저장소·Next.js 초기화, Supabase CLI init + `platform-dev` link, `.env.local` 키 3개 확인(anon/service/Anthropic), auth 설정 원격 반영(JWT 15분·가입 차단) 완료. 남은 것: CI(0.5), 백업 스크립트 골격(0.6), 메일 발송(0.7 — **Resend로 결정됨**: 사용자 가입부터 Supabase SMTP 연결까지 단계별 안내. 도메인 미정이라 개발 중엔 본인 메일로만 테스트), Vercel 연결(0.4, 선택)
